@@ -1,0 +1,20 @@
+{
+  "name": "google-archiver",
+  "version": "1.0.0",
+  "description": "Archive Gmail emails and Google Calendar events to text files",
+  "main": "index.js",
+  "scripts": {
+    "gmail": "node gmail-archiver.js",
+    "calendar": "node calendar-archiver.js",
+    "auth": "node auth-setup.js"
+  },
+  "keywords": ["gmail", "google-calendar", "archive", "export", "backup"],
+  "license": "MIT",
+  "dependencies": {
+    "googleapis": "^140.0.1"
+  },
+  "bin": {
+    "gmail-archiver": "./gmail-archiver.js",
+    "calendar-archiver": "./calendar-archiver.js"
+  }
+}

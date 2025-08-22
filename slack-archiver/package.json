@@ -1,0 +1,17 @@
+{
+  "name": "slack-archiver",
+  "version": "1.0.0",
+  "description": "Archive Slack conversations to text files",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["slack", "archive", "export", "backup"],
+  "license": "MIT",
+  "dependencies": {
+    "@slack/web-api": "^7.8.0"
+  },
+  "bin": {
+    "slack-archiver": "./index.js"
+  }
+}
